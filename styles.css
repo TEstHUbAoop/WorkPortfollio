@@ -8,6 +8,18 @@
   }
 }
 
+/* Modern ambient mesh + subtle dot pattern background */
+.page-bg {
+  background-color: #f1f5f9;
+  background-image:
+    radial-gradient(at 12% 8%, rgba(20, 184, 166, 0.14) 0px, transparent 45%),
+    radial-gradient(at 88% 18%, rgba(14, 165, 233, 0.12) 0px, transparent 42%),
+    radial-gradient(at 50% 65%, rgba(13, 148, 136, 0.08) 0px, transparent 50%),
+    radial-gradient(rgba(15, 23, 42, 0.06) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 24px 24px;
+  background-attachment: fixed;
+}
+
 /* Subtle hero grid pattern */
 .hero-grid {
   background-image:
@@ -53,6 +65,7 @@
 
   body {
     background: #ffffff !important;
+    background-image: none !important;
     color: #0f172a !important;
   }
 
